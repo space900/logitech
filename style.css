@@ -505,6 +505,7 @@ body {
 
   .header__burger-link:hover {
     border-bottom: 4px solid #ffffff;
+    padding: 0;
   }
 
   .header__logo {
