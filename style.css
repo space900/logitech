@@ -409,7 +409,7 @@ body {
 .mouse__image {
   height: 310px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
@@ -435,7 +435,18 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
+  
+  .mouse__image {
+    background-position: center bottom;
+  }
 }
+
+@media (min-width: 475px) and (max-width: 760px) {
+  .mouse__image {
+    background-size: auto;
+  }
+}
+
 
 @media (min-width: 768px) {
   .top {
