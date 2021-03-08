@@ -445,6 +445,11 @@ body {
   .mouse__image {
     background-size: auto;
   }
+
+  .w-100_settings {
+    width: 75%!important;
+    margin: auto;
+  }
 }
 
 
@@ -767,6 +772,13 @@ body {
 
   .footer {
     height: 150px;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 800px) {
+  .w-100_settings {
+    height: 500px;
+    margin: auto;
   }
 }
 
