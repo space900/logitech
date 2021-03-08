@@ -277,12 +277,16 @@ body {
   background: url(./images/arrow-left.svg);
   background-repeat: no-repeat;
   filter: invert(100%);
+  display: flex;
+  align-self: baseline;
 }
 
 .carousel-control-next-icon {
   background: url(./images/arrow-right.svg);
   background-repeat: no-repeat;
   filter: invert(100%);
+  display: flex;
+  align-self: baseline;
 }
 
 .carousel__buttons {
@@ -508,6 +512,7 @@ body {
     width: auto;
     font-size: 20px;
     line-height: 23px;
+    margin: 0;
     padding: 8px 21px 4px 28px;
     border-left: 1px solid #494949;
   }
@@ -561,8 +566,8 @@ body {
   }
 
   .top__svg {
-    width: 61px;
-    height: 33px;
+    width: 57px;
+    height: 29px;
   }
 
   .bluetooth {
@@ -619,6 +624,14 @@ body {
     margin-bottom: 23px;
   }
 
+  .carousel {
+    margin-bottom: 50px;
+  }
+
+  .carousel_info {
+    height: 24px;
+  }
+
   .carousel__buttons {
     margin: 0 auto 22px;
     height: 40px;
@@ -636,6 +649,12 @@ body {
 
   .carousel-indicators_settings {
     gap: 25px;
+    margin-top: 53px;
+    margin-bottom: 70px;
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    background-size: contain;
   }
 
   .switch_settings {
@@ -658,8 +677,10 @@ body {
     display: flex;
     width: auto;
     list-style-position: inside;
-    margin-left: 0;
+    margin-left: 3px;
+    margin-right: 3px;
     margin-top: 62px;
+    margin-bottom: 0;
   }
 
   .settings {
@@ -670,6 +691,7 @@ body {
     margin-left: 64px;
     margin-right: 65px;
     padding-top: 38px;
+    padding-bottom: 29px;
   }
 
   .settings__icons {
@@ -687,7 +709,7 @@ body {
   }
 
   .settings__slider {
-    margin: 54px 198px 70px;
+    margin: 54px 198px 0;
   }
 
   .w-100_settings {
@@ -697,6 +719,12 @@ body {
   .heading_settings {
     margin-left: 64px;
     margin-right: 65px;
+  }
+
+  .heading_mouse-tab {
+    max-width: 58%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .mouse__text {
@@ -726,6 +754,7 @@ body {
   .top {
     padding-top: 0;
   }
+
 
   .top__image {
     height: 671px;
@@ -881,6 +910,7 @@ body {
     text-align: right;
     max-width: 317px;
     margin-bottom: 34px;
+    margin-right: 0;
   }
 
   .top__arrow {
@@ -919,6 +949,7 @@ body {
     font-size: 300px;
     line-height: 352px;
     padding-left: 85px;
+    padding-right: 0!important;
   }
 
   .bluetooth__heading_day-padding {
