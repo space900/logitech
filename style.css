@@ -86,6 +86,11 @@ body {
   padding-bottom: 32px;
 }
 
+.header__burger-list_active {
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+}
+
 .header__burger-items {
   margin-top: 25px;
   margin-bottom: 148px;
@@ -470,6 +475,10 @@ body {
     padding-bottom: 59px;
     max-width: 636px;
     margin: auto;
+  }
+
+  .header__burger-list_active {
+    border-bottom: 4px solid #ffffff;
   }
 
   .header__burger-link {
