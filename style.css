@@ -1159,6 +1159,10 @@ body {
 }
 
 @media (min-width: 1024px) and (max-width: 1309px) {
+  .flow {
+    padding-bottom: 633px;
+  }
+
   .mouse {
     padding-bottom: 0;
     padding-top: 0;
