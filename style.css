@@ -36,7 +36,7 @@ body {
   margin: 0;
 }
 
-.header__icon,
+.header__icon:hover,
 .header__burger-close:hover {
   opacity: 0.7;
 }
