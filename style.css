@@ -776,6 +776,20 @@ body {
   }
 }
 
+@media (min-width: 465px) and (max-width: 575px) {
+  .bluetooth__image {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 760px) {
+  .bluetooth__image {
+    max-width: 65%;
+    margin: auto;
+  }
+}
+
 @media (min-width: 761px) and (max-width: 800px) {
   .w-100_settings {
     height: 500px;
@@ -1110,5 +1124,36 @@ body {
   .text_footer {
     font-size: 14px;
     line-height: 16px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1166px) {
+  .header__menu {
+    margin-left: 80px;
+  }
+
+  .header__menu-list {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .bluetooth__image {
+    margin-left: -60px;
+  }
+
+  .flow {
+    padding-bottom: 520px;
+  }
+}
+
+@media (min-width: 545px) and (max-width: 767px) {
+  .flow {
+    padding-bottom: 330px;
+  }
+
+  .settings__slider {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65%;
   }
 }
